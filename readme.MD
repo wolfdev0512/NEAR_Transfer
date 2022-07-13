@@ -1,3 +1,5 @@
+#GeniusNinja33
+
 Constructing transactions on NEAR
 ===
 
@@ -14,7 +16,7 @@ This repository serves to demonstrate how transactions are created, signed, and 
 Either create a `.env` file in the root of this project, or export a bash variable by running the following in your terminal (replacing the example key).
 
 ```bash
-export SENDER_PRIVATE_KEY=3wb4fVQvafPebkcCmyQPgMa2VsnX3JAQXZ4gjpc3kSu9AbVtLpLZqEog4xTbJrJxG1Y88SkHpuJV58GmPRnPXMD
+export SENDER_PRIVATE_KEY=ed25519:3wNVAVcERFTiuH2nDPZtQi5q5pn1HB6ECpruCrBiBFq5TRjghKgQJhoXjyXgEZRDsTV9Efj4xoGz9iw7BsSEJs3R
 ```
 
 2) Install dependencies by running:
