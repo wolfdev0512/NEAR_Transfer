@@ -9,7 +9,7 @@ require("dotenv").config();
 const sender = "create_transaction.testnet";
 const receiver = "star512.testnet";
 const networkId = "testnet";
-const amount = utils.format.parseNearAmount("10");
+const amount = utils.format.parseNearAmount("20");
 
 async function main() {
   // sets up an empty keyStore object in memory using near-api-js
