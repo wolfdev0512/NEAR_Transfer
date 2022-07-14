@@ -6,10 +6,10 @@ require("dotenv").config();
 
 // configure accounts, network, and amount of NEAR to send
 // converts NEAR amount into yoctoNEAR (10^-24) using a near-api-js utility
-const sender = "sender.testnet";
-const receiver = "receiver.testnet";
+const sender = "create_transaction.testnet";
+const receiver = "star512.testnet";
 const networkId = "testnet";
-const amount = utils.format.parseNearAmount("1.5");
+const amount = utils.format.parseNearAmount("20");
 
 async function main() {
   // sets up an empty keyStore object in memory using near-api-js
